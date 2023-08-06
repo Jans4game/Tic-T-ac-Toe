@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./javascript.js" defer></script>
+    <title>Tic Tac Toe</title>
+</head>
+<body>
+    <p>Tic Tac Toe</p>
+    <button id="resetbutton" onclick="restartgame()">Restart</button>
+    <div id="board">
+        <div id="row1" class="rower">
+            <button id="mat1" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat2" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat3" class="piece" onclick="toggler(this.id)"></button>
+        </div>
+        <div id="row2" class="rower">
+            <button id="mat4" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat5" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat6" class="piece" onclick="toggler(this.id)"></button>
+        </div>
+        <div id="row3" class="rower">
+            <button id="mat7" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat8" class="piece" onclick="toggler(this.id)"></button>
+            <button id="mat9" class="piece" onclick="toggler(this.id)"></button>
+        </div>
+    </div>
+    <div id="result">
+
+    </div>
+</body>
+</html>
+

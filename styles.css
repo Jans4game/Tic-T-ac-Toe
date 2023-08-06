@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+p{
+    text-align: center;
+    padding-top: 2em;
+    font-size: 3em;
+    font-weight: bolder;
+    margin-bottom: 25px;
+}
+
+#resetbutton{
+    height: 40px;
+    width: 100px;
+    background-color: lawngreen;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#board{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 18em;
+    margin-bottom: 30px;
+}
+
+#row1{
+    display: flex;
+    flex-direction: row;
+}
+
+#mat1{
+    border: 3px solid black;
+    border-top: 0px;
+    border-left: 0px;
+    font-size: 2em;
+}
+
+.but1{
+    height: 5.7em;
+    width: 6.1em;
+}
+
+#mat2{
+    border: 3px solid black;
+    border-top: 0px;
+    font-size: 2em;
+
+}
+
+#mat3{
+    border: 3px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    font-size: 2em;
+}
+
+#row2{
+    display: flex;
+    flex-direction: row;
+}
+
+#mat4{
+    border: 3px solid black;
+    border-left: 0px;
+    font-size: 2em;
+}
+
+#mat5{
+    border: 3px solid black;
+    font-size: 2em;
+}
+
+#mat6{
+    border: 3px solid black;
+    border-right: 0px;
+    font-size: 2em;
+}
+
+#row3{
+    display: flex;
+    flex-direction: row;
+}
+
+#mat7{
+    border: 3px solid black;
+    border-left: 0px;
+    border-bottom: 0px;
+    font-size: 2em;
+}
+
+#mat8{
+    border: 3px solid black;
+    border-bottom: 0px;
+    font-size: 2em;
+}
+
+#mat9{
+    border: 3px solid black;
+    border-right: 0px;
+    border-bottom: 0px;
+    font-size: 2em;
+}
+
+.piece{
+    flex: 1;
+    height: 3em;
+}
+
+#result{
+    background-color: dimgrey;
+    height: 100px;
+    width: 400px;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 25px;
+    color: white;
+    border-radius: 20px;
+}
